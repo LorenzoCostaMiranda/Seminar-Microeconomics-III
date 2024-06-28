@@ -1,119 +1,185 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-%
-\documentclass[
-  10pt,
-  ignorenonframetext,
-]{beamer}
-\usepackage{pgfpages}
-\setbeamertemplate{caption}[numbered]
-\setbeamertemplate{caption label separator}{: }
-\setbeamercolor{caption name}{fg=normal text.fg}
-\beamertemplatenavigationsymbolsempty
-% Prevent slide breaks in the middle of a paragraph
-\widowpenalties 1 10000
-\raggedbottom
-\setbeamertemplate{part page}{
-  \centering
-  \begin{beamercolorbox}[sep=16pt,center]{part title}
-    \usebeamerfont{part title}\insertpart\par
-  \end{beamercolorbox}
-}
-\setbeamertemplate{section page}{
-  \centering
-  \begin{beamercolorbox}[sep=12pt,center]{part title}
-    \usebeamerfont{section title}\insertsection\par
-  \end{beamercolorbox}
-}
-\setbeamertemplate{subsection page}{
-  \centering
-  \begin{beamercolorbox}[sep=8pt,center]{part title}
-    \usebeamerfont{subsection title}\insertsubsection\par
-  \end{beamercolorbox}
-}
-\AtBeginPart{
-  \frame{\partpage}
-}
-\AtBeginSection{
-  \ifbibliography
-  \else
-    \frame{\sectionpage}
-  \fi
-}
-\AtBeginSubsection{
-  \frame{\subsectionpage}
-}
-\usepackage{amsmath,amssymb}
-\usepackage{iftex}
-\ifPDFTeX
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \ifXeTeX
-    \usepackage{mathspec} % this also loads fontspec
-  \else
-    \usepackage{unicode-math} % this also loads fontspec
-  \fi
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-\usepackage{lmodern}
-\usetheme[]{AnnArbor}
-\usecolortheme{beaver}
-\usefonttheme{professionalfonts}
-\ifPDFTeX\else
-  % xetex/luatex font selection
-\fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\usepackage{xcolor}
-\newif\ifbibliography
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
-\usepackage{bookmark}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same}
-\hypersetup{
-  pdftitle={Seminário Microeconomia III},
-  pdfauthor={Lorenzo Costa Miranda},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
+\documentclass[10pt]{Beamer}
+\usepackage{fancybox}
+\usepackage[most]{tcolorbox}
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
 
-\title{Seminário Microeconomia III}
-\subtitle{O Problema do Custo Social}
-\author{Lorenzo Costa Miranda}
-\date{2024-05-25}
-\institute{Universidade Federal do Tocantins}
+
+
+\usetheme{Frankfurt}
+\usecolortheme{seahorse}
+\usefonttheme{serif}
+
+
+\title [Apresentação]{Apresentação: Planos de Saúde e a Teoria da Informação Assimétrica}
+
+\author{Lorenzo Costa Miranda \& Tarcisio Iago}
+
+\institute{UFT Palmas}
+
+\date{\today}
 
 \begin{document}
-\frame{\titlepage}
 
-\begin{frame}[allowframebreaks]
-  \tableofcontents[hideallsubsections]
-\end{frame}
-\begin{frame}
-Que problema?
-\end{frame}
+\frame{\titlepage}
+\frame{\tableofcontents}
+
+\section{Objetivo do Artigo}
+\frame{
+\frametitle{Objetivo do Artigo}
+
+\begin{itemize}
+
+\begin{block}
+	
+\item Discutir o mercado de planos e seguro-saúde utilizando a teoria da informação.
+
+\end{block}
+
+
+\begin{block}
+	
+\item Evidenciar o mercado de \textit{health care} no Brasil, o sistema de saúde pública e a criação da agência nacional de saúde suplementar. 
+
+\end{block}
+\end{itemize}
+}
+
+\section{Introdução}
+\frame{
+\frametitle{Introdução}
+
+\begin{itemize}
+	
+\item Origem do mercado de seguros. 
+	
+\vskip0,5cm	
+
+\item Demanda por serviços de saúde.
+
+\vskip0,5cm
+
+\item O setor de saúde tem algumas peculiaridades.
+
+\vskip0,5cm
+
+\item Como funciona esse mercado.	
+
+\end{itemize}
+}
+
+
+\section{Métodos}
+\frame{
+\frametitle{Métodos}
+}
+
+\section{Contribuição do Artigo}
+\frame{
+\frametitle{A Teoria da Informação (OBJV-1)}
+
+\shadowbox{Características Inerentes ao Mercado de Saúde}
+
+\begin{itemize}
+	
+\vskip0,5cm	
+	
+\item[(i)] \underline{Demanda de serviços de saúde.}
+
+\vskip0,5cm	
+
+\item[(ii)] \underline{Comportamento esperado dos médicos.}
+
+\vskip0,5cm	
+
+\item[(iii)] \underline{Incerteza do produto.}
+
+\vskip0,5cm	
+
+\item[(iv)] \underline{Condições de oferta.}
+
+\vskip0,5cm	
+
+\item[(v)] \underline{Prática de preços}
+
+\end{itemize}
+
+}
+
+\frame{
+\frametitle{A Teoria da Informação (OBJV-1)}
+
+\shadowbox{Risco Moral}
+
+}
+
+\frame{
+\frametitle{A teoria da Informação (OBJV-1)}
+
+\shadowbox{Seleção Adversa}
+
+\vskip0,5cm	
+
+\begin{itemize}
+
+\item Os Questionários não são uma opção.
+
+\vskip0,5cm	
+
+\item O que se deve fazer.
+
+\vskip0,5cm	
+
+\item O que auxilia nos desafios de desinformação.
+
+\vskip0,5cm	
+
+\item A relação Agente-Principal.
+
+\end{itemize}
+
+}
+
+\frame{
+\frametitle{O mercado de \textit{Helth Care} no Brasil (OBJV-2)}
+
+
+
+\shadowbox{Sistema de Saúde Brasileiro}
+
+\begin{itemize}
+
+\begin{block}
+
+\item[(1)] Sistema Público - SUS.
+
+\end{block}
+
+\begin{block}
+
+\item[(2)] O Setor de Saúde Suplementar.
+
+\end{block}
+
+\end{itemize}
+
+}
+
+\frame{
+\frametitle{O mercado de \textit{Helth Care} no Brasil (OBJV-2)}
+
+\shadowbox{População Assistida}
+
+}
+
+\frame{
+\frametitle{O mercado de \textit{Helth Care} no Brasil (OBJV-2)}
+
+\shadowbox{As Modalidades de Contrato}
+
+\shadowbox{Considerações Finais}
+
+}
 
 \end{document}

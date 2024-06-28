@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.25)  25 MAY 2024 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.25)  28 JUN 2024 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,11 @@ entering extended mode
 (Seminário-Microeconomia-III.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\miktex\tex/latex/beamer\beamer.cls
+(C:\miktex\tex/latex/beamer\Beamer.cls
+
+LaTeX Warning: You have requested document class `Beamer',
+               but the document class provides `beamer'.
+
 Document Class: beamer 2024/01/06 v3.71 A class for typesetting presentations
 (C:\miktex\tex/latex/beamer\beamerbasemodes.sty
 (C:\miktex\tex/latex/etoolbox\etoolbox.sty
@@ -406,7 +410,6 @@ File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4064.
 Package hyperref Info: Option `bookmarks' set `true' on input line 4064.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 4064.
 Package hyperref Info: Option `implicit' set `false' on input line 4064.
@@ -674,156 +677,246 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dimb=\dimen293
 )
 (C:\miktex\tex/latex/beamer\beamerouterthemedefault.sty)))
-(C:\miktex\tex/latex/pgf/utilities\pgfpages.sty
-Package: pgfpages 2011/01/05 ver 0.02
+(C:\miktex\tex/latex/fancybox\fancybox.sty
+Package: fancybox 2010/05/15 1.4
 
-(C:\miktex\tex/latex/tools\calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count336
-\calc@Bcount=\count337
-\calc@Adimen=\dimen294
-\calc@Bdimen=\dimen295
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count338
-\calc@Cskip=\skip67
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box76
+\shadowsize=\dimen294
+\@Sbox=\box77
+\do@VerbBox=\toks46
+\the@fancyput=\toks47
+\this@fancyput=\toks48
+\EndVerbatimTokens=\toks49
+\Verbatim@Outfile=\write5
+\Verbatim@Infile=\read3
+) (C:\miktex\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+
+(C:\miktex\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\miktex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box78
 )
-\pgf@logicalpages=\count339
-\pgf@firstshipout=\count340
-\pgf@lastshipout=\count341
-\pgf@currentshipout=\count342
-\pgf@cpn=\count343
-\pgf@shipoutnextto=\count344
-\pgfphysicalheight=\dimen296
-\pgfphysicalwidth=\dimen297
-\pgfpages@shipoutbox=\box76
-) (C:\miktex\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+(C:\miktex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\miktex\tex/latex/base\inputenc.sty
+(C:\miktex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen295
+\pgf@nodesepend=\dimen296
+)
+(C:\miktex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\miktex\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks50
+\verbatim@line=\toks51
+\verbatim@in@stream=\read4
+)
+(C:\miktex\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\miktex\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box79
+\tcb@upperbox=\box80
+\tcb@lowerbox=\box81
+\tcb@phantombox=\box82
+\c@tcbbreakpart=\count336
+\c@tcblayer=\count337
+\c@tcolorbox@number=\count338
+\l__tcobox_tmpa_box=\box83
+\l__tcobox_tmpa_dim=\dimen297
+\tcb@temp=\box84
+\tcb@temp=\box85
+\tcb@temp=\box86
+\tcb@temp=\box87
+
+(C:\miktex\tex/latex/tcolorbox\tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+\c@tcbrastercolumn=\count339
+\c@tcbrasterrow=\count340
+\c@tcbrasternum=\count341
+\c@tcbraster=\count342
+) (C:\miktex\tex/latex/tcolorbox\tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(C:\miktex\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\miktex\tex/latex/pgf/utilities\pgffor.sty
+(C:\miktex\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen298
+\pgffor@skip=\dimen299
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
+))
+(C:\miktex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\miktex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count343
+\pgfplotmarksize=\dimen300
+)
+\tikz@lastx=\dimen301
+\tikz@lasty=\dimen302
+\tikz@lastxsaved=\dimen303
+\tikz@lastysaved=\dimen304
+\tikz@lastmovetox=\dimen305
+\tikz@lastmovetoy=\dimen306
+\tikzleveldistance=\dimen307
+\tikzsiblingdistance=\dimen308
+\tikz@figbox=\box88
+\tikz@figbox@bg=\box89
+\tikz@tempbox=\box90
+\tikz@tempbox@bg=\box91
+\tikztreelevel=\count344
+\tikznumberofchildren=\count345
+\tikznumberofcurrentchild=\count346
+\tikz@fig@count=\count347
+
+(C:\miktex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count348
+\pgfmatrixcurrentcolumn=\count349
+\pgf@matrix@numberofcolumns=\count350
+)
+\tikz@expandcount=\count351
+
+(C:\miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code
+.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\miktex\tex/latex/tikzfill\tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(C:\miktex\tex/latex/tikzfill\tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(C:\miktex\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box92
+))
+(C:\miktex\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (C:\miktex\tex/latex/tcolorbox\tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(C:\miktex\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box93
+\tcb@totalupperbox=\box94
+\tcb@totallowerbox=\box95
+)
+(C:\miktex\tex/latex/tcolorbox\tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (C:\miktex\tex/latex/tcolorbox\tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (C:\miktex\tex/latex/tcolorbox\tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+\tcbfitdim=\dimen309
+\tcb@lowerfitdim=\dimen310
+\tcb@upperfitdim=\dimen311
+\tcb@cur@hbadness=\count352
+) (C:\miktex\tex/latex/tcolorbox\tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(C:\miktex\tex/latex/tcolorbox\tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(C:\miktex\tex/latex/listings\listings.sty
+\lst@mode=\count353
+\lst@gtempboxa=\box96
+\lst@token=\toks54
+\lst@length=\count354
+\lst@currlwidth=\dimen312
+\lst@column=\count355
+\lst@pos=\count356
+\lst@lostspace=\dimen313
+\lst@width=\dimen314
+\lst@newlines=\count357
+\lst@lineno=\count358
+\lst@maxwidth=\dimen315
+
+(C:\miktex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count359
+\lst@skipnumbers=\count360
+\lst@framebox=\box97
+)
+(C:\miktex\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(C:\miktex\tex/latex/tcolorbox\tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(C:\miktex\tex/latex/tcolorbox\tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count361
+)) (C:\miktex\tex/latex/listingsutf8\listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(C:\miktex\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)))
+(C:\miktex\tex/latex/tcolorbox\tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (C:\miktex\tex/latex/tcolorbox\tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (C:\miktex\tex/latex/tcolorbox\tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+
+(C:\miktex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code
+.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\miktex\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\miktex\tex/latex/tcolorbox\tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)) (C:\miktex\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks46
-\inpenc@posthook=\toks47
-) (C:\miktex\tex/latex/base\textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\miktex\tex/latex/lm\lmodern.sty
-Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+\inpenc@prehook=\toks55
+\inpenc@posthook=\toks56
 )
-(C:\miktex\tex/latex/beamer\beamerthemeAnnArbor.sty
+(C:\miktex\tex/latex/beamer\beamerthemeFrankfurt.sty
+(C:\miktex\tex/latex/beamer\beamerouterthemesmoothbars.sty)
 (C:\miktex\tex/latex/beamer\beamerinnerthemerounded.sty)
-(C:\miktex\tex/latex/beamer\beamerouterthemeinfolines.sty)
-(C:\miktex\tex/latex/beamer\beamercolorthemewolverine.sty))
-(C:\miktex\tex/latex/beamer\beamercolorthemebeaver.sty)
-(C:\miktex\tex/latex/beamer\beamerfontthemeprofessionalfonts.sty)
-(C:\miktex\tex/latex/upquote\upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-)
-(C:\miktex\tex/latex/microtype\microtype.sty
-Package: microtype 2024/03/29 v3.1b Micro-typographical refinements (RS)
-\MT@toks=\toks48
-\MT@tempbox=\box77
-\MT@count=\count345
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1061.
-LaTeX Info: Redefining \leftprotrusion on input line 1062.
-\MT@prot@toks=\toks49
-LaTeX Info: Redefining \rightprotrusion on input line 1081.
-LaTeX Info: Redefining \textls on input line 1392.
-\MT@outer@kern=\dimen298
-LaTeX Info: Redefining \textmicrotypecontext on input line 2013.
-\MT@listname@count=\count346
-
-(C:\miktex\tex/latex/microtype\microtype-pdftex.def
-File: microtype-pdftex.def 2024/03/29 v3.1b Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 902.
-LaTeX Info: Redefining \lslig on input line 902.
-\MT@outer@space=\skip68
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(C:\miktex\tex/latex/microtype\microtype.cfg
-File: microtype.cfg 2024/03/29 v3.1b microtype main configuration file (RS)
-))
-(C:\miktex\tex/latex/parskip\parskip.sty
-Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-)
-(C:\miktex\tex/latex/bookmark\bookmark.sty
-Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
-
-(C:\miktex\tex/latex/bookmark\bkm-pdftex.def
-File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
-)
-\BKM@id=\count347
-))
-(C:\miktex\tex/latex/xurl\xurl.sty
-Package: xurl 2022/01/09 v 0.10 modify URL breaks
-)
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-09.
- (C:\miktex\tex/latex/lm\t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+(C:\miktex\tex/latex/beamer\beamercolorthemeorchid.sty)
+(C:\miktex\tex/latex/beamer\beamercolorthemewhale.sty))
+(C:\miktex\tex/latex/beamer\beamercolorthemeseahorse.sty)
+(C:\miktex\tex/latex/beamer\beamerfontthemeserif.sty)
 (C:\miktex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count348
-\l__pdf_internal_box=\box78
+\l__color_backend_stack_int=\count362
+\l__pdf_internal_box=\box98
 )
 (Seminário-Microeconomia-III.aux)
 \openout1 = `Seminário-Microeconomia-III.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -833,14 +926,14 @@ LaTeX Font Info:    ... okay on input line 109.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(9.99756pt, 344.20024pt, 9.99756pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=344.20024pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-62.27243pt
-* \evensidemargin=-62.27243pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -861,17 +954,17 @@ LaTeX Font Info:    ... okay on input line 109.
 
 (C:\miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count349
-\scratchdimen=\dimen299
-\scratchbox=\box79
-\nofMPsegments=\count350
-\nofMParguments=\count351
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count352
-\MPscratchDim=\dimen300
-\MPnumerator=\count353
-\makeMPintoPDFobject=\count354
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count363
+\scratchdimen=\dimen316
+\scratchbox=\box99
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen317
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks58
 ) (C:\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -880,7 +973,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\miktex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 109.
+Package hyperref Info: Link coloring OFF on input line 23.
+
+(Seminário-Microeconomia-III.out) (Seminário-Microeconomia-III.out)
+\@outlinefile=\write6
+\openout6 = `Seminário-Microeconomia-III.out'.
+
 
 (C:\miktex\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -899,98 +997,78 @@ Dictionary: translator-numbers-dictionary, Language: English
 (C:\miktex\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 109.
-Package microtype Info: Applying patch `item' on input line 109.
-Package microtype Info: Applying patch `toc' on input line 109.
-Package microtype Info: Applying patch `eqnum' on input line 109.
-Package microtype Info: Applying patch `footnote' on input line 109.
-Package microtype Info: Applying patch `verbatim' on input line 109.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using protrusion set `basicmath'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 109.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+\c@lstlisting=\count369
 
-(Seminário-Microeconomia-III.nav)
-Overfull \hbox (13.00027pt too wide) in paragraph at lines 109--109
- [][]  \T1/lmss/m/n/5 (-20) ([])  
- []
+(Seminário-Microeconomia-III.nav) [1{C:/Users/Lorenzo Costa/AppData/Local/MiKT
+eX/fonts/map/pdftex/pdftex.map}
 
-
-Overfull \hbox (13.00027pt too wide) in paragraph at lines 110--110
- [][]  \T1/lmss/m/n/5 (-20) ([])  
- []
-
-
-Overfull \hbox (13.00027pt too wide) has occurred while \output is active
- [][]  \T1/lmss/m/n/5 (-20) ([])  
- []
-
-[1
-
-{C:/Users/Lorenzo Costa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/mi
-ktex/fonts/enc/dvips/lm/lm-ec.enc}]
-Overfull \hbox (13.00027pt too wide) in paragraph at lines 114--114
- [][]  \T1/lmss/m/n/5 (-20) ([])  
- []
-
-(Seminário-Microeconomia-III.toc)
-Overfull \hbox (13.00027pt too wide) has occurred while \output is active
- [][]  \T1/lmss/m/n/5 (-20) ([])  
- []
-
-[2
+] (Seminário-Microeconomia-III.toc) [2
 
 ]
-Overfull \hbox (13.00027pt too wide) in paragraph at lines 117--117
- [][]  \T1/lmss/m/n/5 (-20) ([])  
- []
-
-
-Overfull \hbox (13.00027pt too wide) has occurred while \output is active
- [][]  \T1/lmss/m/n/5 (-20) ([])  
- []
-
 [3
 
+] [4
+
+] [5
+
 ]
-\tf@nav=\write5
-\openout5 = `Seminário-Microeconomia-III.nav'.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 108
+.
+ (C:\miktex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 108
+.
 
-\tf@toc=\write6
-\openout6 = `Seminário-Microeconomia-III.toc'.
+(C:\miktex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [6
 
-\tf@snm=\write7
-\openout7 = `Seminário-Microeconomia-III.snm'.
+] [7
 
- (Seminário-Microeconomia-III.aux)
+] [8
+
+] [9
+
+] [10
+
+] [11
+
+]
+\tf@nav=\write7
+\openout7 = `Seminário-Microeconomia-III.nav'.
+
+\tf@toc=\write8
+\openout8 = `Seminário-Microeconomia-III.toc'.
+
+\tf@snm=\write9
+\openout9 = `Seminário-Microeconomia-III.snm'.
+
+
+(Seminário-Microeconomia-III.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+Package rerunfilecheck Info: File `Seminário-Microeconomia-III.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: 3CAAAA45C38312D56D17887E5ECAB11F;484.
  ) 
 Here is how much of TeX's memory you used:
- 24206 strings out of 474486
- 458810 string characters out of 5760144
- 1935542 words of memory out of 5000000
- 45982 multiletter control sequences out of 15000+600000
- 574048 words of font info for 53 fonts, out of 8000000 for 9000
+ 31603 strings out of 474486
+ 657077 string characters out of 5760144
+ 1943542 words of memory out of 5000000
+ 53265 multiletter control sequences out of 15000+600000
+ 561345 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,123p,1027b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/miktex/fonts/type1/public/lm/lmss10.pfb><C:/miktex/fonts/type1/public/lm/
-lmss12.pfb><C:/miktex/fonts/type1/public/lm/lmss8.pfb>
-Output written on Seminário-Microeconomia-III.pdf (3 pages, 70204 bytes).
+ 128i,20n,123p,426b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/miktex/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+C:/miktex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/miktex/fonts/type1/public
+/amsfonts/cm/cmti10.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Seminário-Microeconomia-III.pdf (11 pages, 207643 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 10325 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 441 words of extra memory for PDF output out of 10000 (max. 10000000)
 
