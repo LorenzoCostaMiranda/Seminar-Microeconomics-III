@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.25)  28 JUN 2024 00:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.25)  29 JUN 2024 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,30 +1009,53 @@ eX/fonts/map/pdftex/pdftex.map}
 
 ] [4
 
-] [5
-
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 108
+<tradeoff.jpg, id=397, 497.86pt x 138.5175pt>
+File: tradeoff.jpg Graphic file (type jpg)
+<use tradeoff.jpg>
+Package pdftex.def Info: tradeoff.jpg  used on input line 94.
+(pdftex.def)             Requested size: 184.3758pt x 51.29927pt.
+ [5
+
+ <./tradeoff.jpg>]
+<problemas.jpg, id=452, 715.67375pt x 286.06876pt>
+File: problemas.jpg Graphic file (type jpg)
+<use problemas.jpg>
+Package pdftex.def Info: problemas.jpg  used on input line 104.
+(pdftex.def)             Requested size: 307.28987pt x 122.82819pt.
+ [6
+
+ <./problemas.jpg>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 136
 .
- (C:\miktex\tex/latex/amsfonts\umsa.fd
+
+(C:\miktex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 108
+LaTeX Font Info:    Trying to load font information for U+msb on input line 136
 .
-
-(C:\miktex\tex/latex/amsfonts\umsb.fd
+ (C:\miktex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [6
-
-] [7
+)
+[7
 
 ] [8
 
-] [9
+]
+<copagamento.jpg, id=616, 663.47874pt x 371.3875pt>
+File: copagamento.jpg Graphic file (type jpg)
+<use copagamento.jpg>
+Package pdftex.def Info: copagamento.jpg  used on input line 175.
+(pdftex.def)             Requested size: 307.28987pt x 172.00769pt.
+ [9
 
-] [10
+ <./copagamento.jpg>] [10
 
 ] [11
+
+] [12
+
+] [13
 
 ]
 \tf@nav=\write7
@@ -1052,13 +1075,13 @@ L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Seminário-Microeconomia-III.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 3CAAAA45C38312D56D17887E5ECAB11F;484.
+(rerunfilecheck)             Checksum: 74BF3676D23BB7842950CA0120AF9A90;484.
  ) 
 Here is how much of TeX's memory you used:
- 31603 strings out of 474486
- 657077 string characters out of 5760144
- 1943542 words of memory out of 5000000
- 53265 multiletter control sequences out of 15000+600000
+ 31660 strings out of 474486
+ 658272 string characters out of 5760144
+ 1944542 words of memory out of 5000000
+ 53318 multiletter control sequences out of 15000+600000
  561345 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,426b,793s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1066,9 +1089,9 @@ Here is how much of TeX's memory you used:
 blic/amsfonts/cm/cmr12.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmr5.pfb><
 C:/miktex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/miktex/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Seminário-Microeconomia-III.pdf (11 pages, 207643 bytes).
+Output written on Seminário-Microeconomia-III.pdf (13 pages, 350856 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 441 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 930 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 492 words of extra memory for PDF output out of 10000 (max. 10000000)
 
